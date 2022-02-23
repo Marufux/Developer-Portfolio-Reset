@@ -7,7 +7,7 @@ h1 {
   font-size: 50px;
 }
 
-#Red-Head {
+.Red-Head {
   color: red;
 }
 
@@ -20,7 +20,7 @@ h1 {
   width: 85%;
 }
 
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -49,4 +49,21 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+/* third-banner */
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-items {
+  width: 50%;
+  padding: 2.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
 }
