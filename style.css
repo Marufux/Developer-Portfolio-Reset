@@ -20,8 +20,12 @@ h1 {
   width: 85%;
 }
 
-.first-section {
+section {
   display: flex;
+  margin-bottom: 150px;
+}
+
+.first-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -38,4 +42,11 @@ h1 {
   font-weight: 900;
   color: aliceblue;
   font-size: 15px;
+}
+
+/* second section  */
+.second-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
